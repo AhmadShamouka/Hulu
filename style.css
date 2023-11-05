@@ -280,7 +280,7 @@
     overflow: hidden;
     margin-bottom: 50px;
 }
-.live button:hover{
+.start button:hover{
     background-color: #1ce781c7;
 }
 .view{
@@ -311,57 +311,92 @@
     margin-left: 80%;
     
 }
-
-.footer {
-    
-    background-color: #333;
-    color: #fff;
-    padding: 20px;
-  }
-  
- 
-  .contain {
+footer{
+    padding: 10%;
+}
+.contain{
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
+}
+.container {
+    display: table;
+    width: 100%;
+    border-collapse: collapse;
   }
-  
-  
+.col h3{
+    margin-left: 20px;
+    margin-bottom: 20px;
+    color: #272c34;
+    font-family: "Graphik Web",sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 1;
+    letter-spacing: 0.6px;
+    text-transform: uppercase;
+}
   .col {
-    
-    margin-right: 20px; 
-    padding: 10px;
+    display: table-cell;
+    vertical-align: top;
   }
-  
-  
-  .col.social {
+  .col li{
+    font-family: "Graphik Web",sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.4;
+    letter-spacing: 0;
+    color: #586174;
+    list-style-type: none;
+    padding-top: 1px;
+  }
+  .social {
     width: 100%; 
-    margin-right: 0;
-    margin-top: 20px;
+    
+    margin-top: 20px; 
   }
   
-
-
-  .col.social ul {
+ .col img{
+    text-align: left;
+    height: 30px;
+    width: 30px;
+ }
+.social ul {
     list-style: none;
     padding: 0;
     display: flex;
+   
+  }
+  .col li{
+    margin-left: 20px;
+  }
+  .social li{
+    margin-left: 20px;
   }
   
-  .col.social ul li {
-    margin-right: 10px;
+hr{
+    margin: 5%;
+}
+@media (max-width: 767px){
+.contain {
+    display: block;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+}
+.social span{
+    color:#0f0e0e;
+    margin-left: 20px;
+    font-family: "Graphik Web",sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 1.44;
+    letter-spacing: 0;
   }
-  
-
-  @media (max-width: 768px) {
-    .col {
-      width: 100%; 
-      margin-right: 0;
-      margin-bottom: 20px; 
-    }
-  
-    .col.social {
-      margin-top: 0; 
-    }
+  .social a{
+    color:#0f0e0e;
+    margin-left: 20px;
+    cursor: pointer;
+    font-family: "Graphik Web",sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 1.44;
+    letter-spacing: 0;
   }
-  
