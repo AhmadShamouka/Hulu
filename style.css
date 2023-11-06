@@ -311,6 +311,127 @@
     margin-left: 80%;
     
 }
+.sports {
+    background-image: url("/assets/images/sports-bg.jpeg");
+    min-width: 100%;
+    background-repeat: no-repeat;
+    font-family: Graphik,Helvetica,Arial,sans-serif;
+    background-color: #0b0c0f;
+    width: 100%;
+    z-index: -1;
+    background-size: cover;
+    background-position: center;
+        margin: 0 auto;
+    padding-top: 34px;
+    height: 760px;
+  }
+  .buttons{
+    margin-left: 15%;
+    padding-bottom: 31px;
+    text-align: left;
+}
+.buttons-tab{
+    margin-right: 5%;
+    cursor: pointer;
+    text-transform: uppercase;
+    color: hsla(0,0%,100%,.4);
+    background: none;
+    border: none;
+    padding: 0;
+    font-size: 12px;
+    line-height: 1.15;
+    font-weight: 900;
+    border-radius: 0;
+}
+.active-button {
+    color: #fff; 
+    margin-top: 10%;
+    height: 7px;
+    text-decoration: underline;
+     
+  }
+  .titleh1{
+    font-family: "Graphik Web",sans-serif;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 1.2;
+    letter-spacing: -0.2px;
+  }
+  .titlep{
+    color: #fff;
+    max-width: 550px;
+    text-align: left;
+    margin-top: 2%;
+  }
+  .sport-text{
+    text-align: left;
+    padding-bottom: 31px;
+    white-space: nowrap;
+    margin-left: 15%;
+}
+.logos{
+    display: inline-block;
+    height: 53px;
+    flex-wrap: wrap;
+    width: 350px;
+    height: 300px;
+    margin: 27px auto 0;
+}
+.small-logo{
+    margin: 0 10.5px 20px;
+    width: 14%;
+    height: 14%;
+    border-radius: 49%; 
+    background-color: #fff;
+}
+.text-under-logos p{  font-family: Graphik Web,Graphik,sans-serif;
+font-size: 10px;
+font-weight: 40px;
+letter-spacing: 0;
+line-height: 1.46;
+text-transform: none;
+color: hsla(0,0%,100%,.6);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 footer{
     padding: 10%;
 }
@@ -372,6 +493,7 @@ footer{
   }
   
 hr{
+    width: 90%;
     margin: 5%;
 }
 @media (max-width: 767px){
